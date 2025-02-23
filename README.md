@@ -4,6 +4,7 @@ This interactive Learning Dashboard, built with Streamlit, Pandas, and Plotly, p
 🚀 Features
 Dynamic Filters: Filter by program, department, and training date.
 KPI Metrics: Total participants, average completion, and feedback score.
+
 Visualizations:
 📈 Program Completion % by Department
 🎓 Quiz Score Distribution
