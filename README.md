@@ -1,66 +1,21 @@
-📊 Learning Dashboard
+# 📊 Learning Dashboard
+This interactive dashboard, built with Streamlit, Pandas, and Plotly, provides insights into learning program performance, engagement, and feedback.
 
-This interactive Learning Dashboard, built with Streamlit, Pandas, and Plotly, provides insights into learning program performance, participant engagement, and feedback.
+## 🚀 Features
+- **Dynamic filters:** Program, department, and date.
+- **KPI metrics:** Participants, completion %, and feedback.
+- **Visualizations:** Completion by department, quiz scores, hours spent.
+- **Risk detection:** Highlights <50% completion.
+- **Export:** Download filtered data as CSV.
 
-🚀 Features
+## 🌐 View Dashboard
+[Learning Dashboard](http://localhost:8503/)
 
-Dynamic Filters: Filter by program, department, and training date.
-
-KPI Metrics: Total participants, average completion, and feedback score.
-
-Visualizations:
-
-📈 Program Completion % by Department
-
-🎓 Quiz Score Distribution
-
-⏱️ Hours Spent per Participant
-
-🥧 Completion Distribution by Program
-
-Risk Detection: Highlights participants with less than 50% completion.
-
-Export: Download filtered data as a CSV.
-
-📦 Installation
-
-Clone the Repository:
-
+## 📦 Installation
+```bash
 git clone https://github.com/yourusername/learning-dashboard.git
 cd learning-dashboard
-
-Create Virtual Environment (Optional but Recommended):
-
 python -m venv myenv
-source myenv/bin/activate  # On Windows: myenv\Scripts\activate
-
-Install Dependencies:
-
+source myenv/bin/activate
 pip install -r requirements.txt
-
-🟢 Running the App
-
 streamlit run learning_dashboard.py
-
-🌐 View Dashboard
-
-You can view the live dashboard here: Learning Dashboard
-
-📊 Dataset
-
-The app uses a sample dataset Learning_Dashboard_Fake_Dataset.csv with the following columns:
-
-Name, Department, Program Name, Completion %, Quiz Score, Feedback Score, Hours Spent, Training Date
-
-📤 Exporting Data
-
-Filtered data can be downloaded using the Export Filtered Data button on the dashboard.
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
-📄 License
-
-This project is licensed under the MIT License.
-
